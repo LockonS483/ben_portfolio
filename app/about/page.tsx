@@ -8,7 +8,7 @@ export default function ProjectsPage() {
     </div>
     <div>
       <p>Fancy seeing you here 🙃</p>
-      <p>This is supposed to be the about page, but you're not supposed to be here.</p>
+      <p>This is supposed to be the about page, but you&apos;re not supposed to be here.</p>
     </div>
     </section>
   );
