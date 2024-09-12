@@ -42,7 +42,7 @@ export const Navbar = () => {
           </NextLink>
         </NavbarBrand>
       </NavbarContent>
-      {/* removed :')
+      {/* removed stuff
       <NavbarContent className="basis-1/4 sm:basis-full" justify="start">
         <ul className="hidden lg:flex gap-4 justify-start ml-2">
           {siteConfig.navItems.map((item) => (
