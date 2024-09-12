@@ -16,6 +16,20 @@ export interface ProjectList {
 export const projectList: ProjectList = {
     projects: [
         {
+            name: "Rhythm Parryer",
+            image: "/images/parryer.png",
+            description: "A rhythm game with a focus on gamefeel.",
+            link: "https://github.com/LockonS483/RhythmParryer",
+            clickLink: "https://llock.itch.io/parryerr"
+        },
+        {
+            name: "Serverless Multiplayer Game",
+            image: "/images/serverlessgame.png",
+            description: "A serverless multiplayer fencing game. (AWS Lambda and db)",
+            link: "https://github.com/LockonS483/TTTServerless",
+            clickLink: "https://llock.itch.io/serverlessttt"
+        },
+        {
             name: "FFXIV Strat Collection",
             image: "/images/hendinstance.webp",
             description: "A doc-site for collecting common party finder strats to help raiders in FFXIV.",
