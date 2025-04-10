@@ -1,7 +1,7 @@
 'use client';
 import "./styles.css";
 import { motion } from "framer-motion";
-import { Card, CardBody, CardFooter, Button } from "@nextui-org/react";
+import { Card, CardBody, CardFooter, Button } from "@heroui/react";
 import NImage from "next/image";
 import pfp from "./Data/alex.png"
 

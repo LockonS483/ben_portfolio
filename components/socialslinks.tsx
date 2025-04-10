@@ -1,9 +1,9 @@
 'use client';
 import "./styles.css";
 import { motion } from "framer-motion";
-import { Card, CardBody, CardFooter, Button, Link, Snippet, Code, Chip } from "@nextui-org/react";
+import { Card, CardBody, CardFooter, Button, Link, Snippet, Code, Chip } from "@heroui/react";
 import { siteConfig } from "@/config/site";
-import { button as buttonStyles } from "@nextui-org/theme";
+import { button as buttonStyles } from "@heroui/theme";
 import { GithubIcon, LinkedinIcon } from "@/components/icons";
 import { title, subtitle, smalltitle } from "./primitives";
 

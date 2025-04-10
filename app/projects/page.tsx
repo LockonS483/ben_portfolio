@@ -1,6 +1,6 @@
 'use client'
 import { title } from "@/components/primitives";
-import { Card, CardFooter, CardBody, Button, Chip } from "@nextui-org/react";
+import { Card, CardFooter, CardBody, Button, Chip } from "@heroui/react";
 import NImage from "next/image";
 import { Project, projectList } from "@/config/projects";
 import { subtitle, smalltitle } from "@/components/primitives";
@@ -13,7 +13,6 @@ export default function BlogPage() {
       <div className="flex flex-row max-w-7xl text-center justify-center">
         <h1 className="text-4xl font-bold">Projects</h1>
       </div>
-
       <div className="w-full max-w-8xl px-4">
         {/* Adjust grid to have fewer columns on larger screens */}
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 gap-4">
@@ -39,12 +38,12 @@ export default function BlogPage() {
                     <p>{item.description}</p>
                   </CardBody>
                   {item.link!="" ? ( // Conditionally render the footer button
-                    <CardFooter className="p-0 mt-4">
+                    (<CardFooter className="p-0 mt-4">
                       <Button as="a" href={item.link} target="_blank" rel="noopener noreferrer">
                         <GithubIcon/>
                         Visit Repo
                       </Button>
-                    </CardFooter>
+                    </CardFooter>)
                   ) : null}
                 </div>
               </Card>

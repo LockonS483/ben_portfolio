@@ -1,6 +1,6 @@
 'use client'
-import { Link, Snippet, Code, Chip, Card, Button } from "@nextui-org/react";
-import { button as buttonStyles } from "@nextui-org/theme";
+import { Link, Snippet, Code, Chip, Card, Button } from "@heroui/react";
+import { button as buttonStyles } from "@heroui/theme";
 
 import { siteConfig } from "@/config/site";
 import { title, subtitle } from "@/components/primitives";
