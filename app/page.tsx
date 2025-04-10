@@ -34,7 +34,7 @@ export default function Home() {
         </div>
       </div>
       <div className="min-w-7xl max-w-7xl px-4 py-2 sm:px-6 lg:px-8">
-        <h1 className={title({size: "sm"})}>Current Technologies:</h1>
+        <h1 className={title({size: "sm"})}>Current Technologies</h1>
       </div>
       <motion.div
       initial={{ opacity: 0, scale: 0.5 }}
@@ -45,23 +45,23 @@ export default function Home() {
         ease: [0, 0.71, 0.2, 1.01]
       }}>
         <div className="flex flex-row max-w-7xl text-center justify-center">
-          <div className="grid grid-cols-4 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-4 gap-4">
+          <div className="grid grid-cols-3 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-4">
         {techList.technologies.map((item: Technology) => (
           <div key={item.name} className="flex flex-col w-full">
-        <Card className="h-20 w-48 flex flex-row p-3 items-center gap-4">
-          <div className="w-1/4">
+            <Card className="h-20 w-48 flex flex-row p-3 items-center gap-4">
+              <div className="w-1/4">
           <img
-        alt={item.name}
-        className="object-cover rounded-lg"
-        height={100}
-        width={100}
-        src={item.image}  // Use project image or fallback
+            alt={item.name}
+            className="object-cover rounded-lg"
+            height={100}
+            width={100}
+            src={item.image}  // Use project image or fallback
           />
-          </div>
-          <div className="w-3/4 flex flex-col justify-between">
+              </div>
+              <div className="w-3/4 flex flex-col justify-between">
           <h1 className={subtitle()}>{item.name}</h1>
-          </div>
-        </Card>
+              </div>
+            </Card>
           </div>
         ))}
           </div>
