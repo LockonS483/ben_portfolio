@@ -16,6 +16,13 @@ export interface ProjectList {
 export const projectList: ProjectList = {
     projects: [
         {
+            name: "Criminal Mind",
+            image: "/images/cmind.png",
+            description: "A narrative driven point and click join about a finding yourself in ",
+            link: "https://github.com/LockonS483/Criminal-Mind-godot",
+            clickLink: "https://llock.itch.io/criminal-mind"
+        },
+        {
             name: "Rhythm Parryer",
             image: "/images/parryer.png",
             description: "A rhythm game with a focus on gamefeel.",
