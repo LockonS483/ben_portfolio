@@ -45,7 +45,7 @@ export default function Home() {
         ease: [0, 0.71, 0.2, 1.01]
       }}>
         <div className="flex flex-row max-w-7xl text-center justify-center">
-          <div className="grid grid-cols-3 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-4">
+          <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-4 gap-4">
         {techList.technologies.map((item: Technology) => (
           <div key={item.name} className="flex flex-col w-full">
             <Card className="h-20 w-48 flex flex-row p-3 items-center gap-4">
